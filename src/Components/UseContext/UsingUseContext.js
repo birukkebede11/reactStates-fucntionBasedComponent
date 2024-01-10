@@ -11,9 +11,9 @@ function UsingUseContext() {
 			<hr />
 			<hr />
 			<h1>Hello from UsingUseContext Component</h1>
-			<h3>
+			<h2>
 				Using the useContext hook: <span className="blue">{exampleContext}</span>
-			</h3>
+			</h2>
 		</div>
 	);
 }

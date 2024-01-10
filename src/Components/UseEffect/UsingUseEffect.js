@@ -2,13 +2,13 @@ import React, { useState, useEffect } from "react";
 import "./effects.css";
 
 function UsingUseEffect() {
-	const [count, setCount] = useState(100);
+	const [count, setCount] = useState(0);
 	const [age, setAge] = useState(50);
 
 	useEffect(() => {
 		console.log("Hello World");
 		document.title = `Count: ${count}`;
-	}, [age, count]);
+	}, [count, age]);
 
 	return (
 		<div>

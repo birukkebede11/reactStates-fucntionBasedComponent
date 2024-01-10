@@ -3,7 +3,7 @@ import React, { useEffect } from "react";
 function LoggedIn() {
 	useEffect(() => {
 		// console.log("Hi, this component is mounting");
-		alert("Logging in")
+		alert("Logging in");
 
 		return () => {
 			// console.log("Bye, I'm unmounting");

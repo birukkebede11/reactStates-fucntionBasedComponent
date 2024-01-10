@@ -4,14 +4,14 @@ import LogInLogOut from "./Components/UseEffect/LogInLogOut";
 import UsingUseEffect from "./Components/UseEffect/UsingUseEffect";
 import CounterUsingHooksUseState from "./Components/UseState/CounterUsingHooksUseState";
 import ObjStateEx from "./Components/UseState/ObjStateEx";
-import Component1 from "./Components/UseContext/Component1";
+// import Component1 from "./Components/UseContext/Component1";
 
 function App() {
 	return (
 		<div className="App">
-			<CounterUsingHooksUseState />
+			{/* <CounterUsingHooksUseState /> */}
 
-			{/* <ObjStateEx /> */}
+			<ObjStateEx />
 
 			{/* <UsingUseEffect /> */}
 			{/* <LogInLogOut /> */}
@@ -19,10 +19,10 @@ function App() {
 	);
 }
 
-// Uncomment the code below for context API example
+// Uncomment the code below for context API example and line 7 import statement for Component1
 // First create context
 // export const MyContext = createContext();
-// // console.log(MyContext);
+// console.log(MyContext);
 
 // function App() {
 // 	return (

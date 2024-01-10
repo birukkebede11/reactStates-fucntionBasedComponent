@@ -6,13 +6,13 @@ function Component3() {
 		<div>
 			<MyContext.Consumer>
 				{(x) => {
-					console.log(x)
+					{/* console.log(x) */}
 					return (
 						<div>
-							<h1>Hello from Component3</h1>
-							<h3>
+							<h1>Hello from Component 3</h1>
+							<h2>
 								Using MyContext Consumer: <span className="red"> {x}</span>
-							</h3>
+							</h2>
 						</div>
 					);
 				}}
